@@ -1,0 +1,6 @@
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\bin\Debug\BinarySearchXLinearSearch.exe.config
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\bin\Debug\BinarySearchXLinearSearch.exe
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\bin\Debug\BinarySearchXLinearSearch.pdb
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\obj\Debug\BinarySearchXLinearSearch.csprojResolveAssemblyReference.cache
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\obj\Debug\BinarySearchXLinearSearch.exe
+c:\users\ronald.junior\documents\visual studio 2015\Projects\BinarySearchXLinearSearch\BinarySearchXLinearSearch\obj\Debug\BinarySearchXLinearSearch.pdb
