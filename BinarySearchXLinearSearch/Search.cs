@@ -32,23 +32,21 @@ namespace BinarySearchXLinearSearch
         {
             Console.WriteLine("Binary Search");
             Console.ReadKey();
-            int positionFound = (int) Math.Floor((double) arrayOfNumbers.Length / 2);
-            int lastDistance = arrayOfNumbers[arrayOfNumbers.Length - 1] - arrayOfNumbers[0];
-            while (true)
+            int positionFound = (int)Math.Floor((double)arrayOfNumbers.Length / 2);
+            int maxRange = arrayOfNumbers.Length - 1;
+            int minRange = 0;
+            while (minRange != maxRange)
             {
+                positionFound = (maxRange + minRange) / 2;
                 Console.WriteLine("The number in position " + positionFound + " is " + arrayOfNumbers[positionFound]);
                 Console.ReadKey();
                 if (arrayOfNumbers[positionFound] > numberToFind)
                 {
-                    if(positionFound == 1)
-                    {
-                        positionFound--;
-                    }
-                    positionFound -= (int)Math.Floor((double)positionFound / 2);
+                    maxRange = positionFound;
                 }
-                else if(arrayOfNumbers[positionFound] < numberToFind)
+                else if (arrayOfNumbers[positionFound] < numberToFind)
                 {
-                    positionFound += (int)Math.Floor((double)positionFound / 2); ;
+                    minRange = positionFound;
                 }
                 else
                 {
